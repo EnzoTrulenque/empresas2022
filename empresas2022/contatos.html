@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+ <title>Contatos - Mostra de Empreendedorismo</title>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <link rel="stylesheet" type="text/css" href="normalize.css">
+ <link rel="stylesheet" type="text/css" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+<link rel="icon" href="img/logo1.png">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+  <header class="headerContatos">
+    <nav>
+      <div class="logoDiv">
+        <a class="logo" href="index.html">
+          <img src="img/logo1.png" alt="">
+        </a>
+      </div>
+      <span class="menubtn" onclick="openNav()">&#9776;</span>
+      <script>
+        function openNav() {
+          document.getElementById("sidenav").style.cssText = "width: 80vw; box-shadow: 10vw 10vw 10vw 10vw black";
+        }
+        function closeNav() {
+          document.getElementById("sidenav").style.cssText = "width: 0vw; box-shadow: none";
+
+        }
+      </script>
+      <script src="mobile-navbar.js"></script>
+      <div class="navDiv">
+        <ul class="nav-list">
+          <li><a href="index.html" class="navLinks">Início</a></li>
+          <li><a href="#objetivo" class="navLinks">Sobre</a></li>
+          <li><a href="empresas.html" class="navLinks">Empresas</a></li>
+          <li><a href="contatos.html" class="navLinks">Contato</a></li>
+        </ul>
+      </div>
+    </nav>
+    <section class="sectionContatos">
+      <div class="sideNav" id="sidenav" style="width: 0vw; box-shadow: none;">
+        <div class="sideNavTop">
+        <p class="mobileNavLinks" class="pMenu">Menu</p>
+        <a href="#" class="closeBtn" onclick="closeNav()">&#10006;</a>
+        </div>
+        <a href="index.html" class="mobileNavLinks">Início</a>
+        <a href="empresas.html" class="mobileNavLinks">Empresas</a>
+        <a href="contatos.html" class="mobileNavLinks">Contato</a>
+        <div class="sideNavBottom">
+          <img src="img/logo1.png" alt="logoUnicolegio">
+          <p>Desenvolvido por <b>Luan Costa & Enzo Trulenque</b> </p>
+          <p id="Creditos">Unicolégio &reg; Todos os direitos reservados</p>
+        </div>
+      </div>
+        <div class="contatos">
+            <h1>Unicolégio Objetivo</h1>
+            <ul>
+                <li><a href="https://unicolegio.com"><img src="img/site.png" alt="iconeSite" class="icone">&nbsp;Site</a></li>
+                <li><a href="https://www.instagram.com/unicolegio_objetivo/"><img src="img/instagram.png" alt="iconeInstagram" class="icone">&nbsp;Instagram</a></li>
+                <li><a href="http://matricula.unicolegio.com.br"><img src="img/matrícula.png" alt="iconeMatricula" class="icone">&nbsp;Matrículas Abertas para 2023</a></li>
+                <li><a href="https://www.google.com/maps/place/Unicolégio+Objetivo+Araçatuba/@-21.2005618,-50.4550663,15z/data=!4m5!3m4!1s0x0:0x8a5b0c6480ebaef7!8m2!3d-21.2005735!4d-50.4550875"><img src="img/endereco.png" alt="iconeEndereco" class="icone">&nbsp;Av. Waldemar Alves, 1355 - Vila Industrial, Araçatuba - SP</a></li>
+                <li><a href="tel:01821027443"><img src="img/telefone.png" alt="iconeTelefone" class="icone">&nbsp;(18) 2102-7443</a></li>
+            </ul>
+            <hr class="hr2">
+            <div class="desenvolvedores">
+                <h1>Desenvolvedores</h1>
+                <h2>&bull;&nbsp;Luan Costa</h2>
+                <ul>
+                    <li><a href="https://github.com/luancostadev/"><img src="img/github.png" alt="iconeGithub" class="icone">&nbsp;Github</a></li>
+                    <li><a href="https://www.linkedin.com/in/luan-costa-054480246/"><img src="img/linkedin.png" alt="iconeLinkedin" class="icone">&nbsp;LinkedIn</a></li>
+                </ul>
+                <h2 class="enzo">&bull;&nbsp;Enzo Trulenque</h2>
+                <ul>
+                    <li><a href="https://github.com/EnzoTrulenque"><img src="img/github.png" alt="iconeGithub" class="icone">&nbsp;Github</a></li>
+                    <li><a href="https://www.linkedin.com/in/enzo-trulenque-evangelista/"><img src="img/linkedin.png" alt="iconeLinkedin" class="icone">&nbsp;LinkedIn</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="img3Div">
+          <img src="img/img3.png" alt="imagemDeDesenvolvedores" class="img3">
+        </div>
+    </section>
+</header>
+<footer class="footerContatos">
+  <p>Desenvolvido por <b>Luan Costa & Enzo Trulenque</b> </p>
+  <p id="Creditos">Unicolégio &reg; Todos os direitos reservados</p>
+</footer>
+
+
+</body>
+</html>
+
+
+</body>
+</html>
